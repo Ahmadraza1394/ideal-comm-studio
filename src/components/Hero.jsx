@@ -39,13 +39,13 @@ export default function Hero() {
 
       {/* Side Text - Hidden on mobile, visible on larger screens */}
       <div className="hidden md:block absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 rotate-90 origin-left">
-        <p className="font-sans uppercase text-xs tracking-widest text-gray-400">
+        <p className="font-sans uppercase text-xs tracking-widest text-brand-pink">
           Ideal Comm Studio
         </p>
       </div>
 
       <div className="hidden md:block absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 -rotate-90 origin-right">
-        <p className="font-sans uppercase text-xs tracking-widest text-gray-400">
+        <p className="font-sans uppercase text-xs tracking-widest text-brand-pink">
           Est. 2024
         </p>
       </div>
